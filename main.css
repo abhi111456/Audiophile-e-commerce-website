@@ -1,0 +1,137 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+html{
+    font-size: 10px;
+
+}
+body{
+    font-family: Poppins,sans-serif;
+    font-size: 1.6rem;
+}
+.container{
+    max-width: 104rem;
+    margin: 0 auto;
+
+}
+svg{
+    width: 1.5rem;
+    height: 1.5rem;
+}
+.header{
+    width: 100%;
+    height: 100vh;
+    background-image: url("./assets/blutooth.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.nav{
+    width: 100%;
+    height: 7rem;
+}
+.nav_container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+    border-bottom: 1px solid #ffffff2e;
+}
+.logo{
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.8rem;
+    font-weight: 800;
+}
+.nav_list{
+    list-style: none;
+    display: flex;
+   
+}
+.nav_link{
+    margin: 0rem 0.8rem;
+    font-size: 1.5rem;
+    text-decoration: none;
+    color: #fff;
+
+}
+.hero{
+    width: 100%;
+    height: calc(100vh - 7rem);
+
+}
+.hero_container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+.hero_content{
+    color: #fff;
+    width: 50%;
+}
+.new{
+    color: #ffffff68;
+    margin-bottom: 3rem;
+    letter-spacing: 1.6px;
+    font-size: 1.3rem;
+
+}
+.main_title{
+    font-size: 4.8rem;
+    margin-bottom: 2rem;
+
+}
+.hero_text{
+    margin-bottom: 3rem;
+}
+.main_btn{
+    background-color: orange;
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.3rem;
+    padding: 1rem 1.8rem;
+}
+.products{
+    width: 100%;
+    padding-top: 17rem;
+}
+.products_container{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(25rem,1fr));
+    gap: 3rem;
+}
+.product{
+    background-color: #dbdbdb;
+    position: relative;
+    width: 100%;
+    height: 20rem;
+
+}
+.product > img {
+    width: 18rem;
+    height: 18rem;
+    position: absolute;
+    left: 20%;
+    top: -40%;
+}
+.products_content{
+    width: 100%;
+    position: absolute;
+    bottom: 2.5rem;
+    text-align: center;
+}
+.product_title{
+    font-size: 1.5rem;
+    letter-spacing: 1.2px;
+    margin-bottom: 1rem;
+}
+.see_products{
+    font-size: 1.2rem;
+    text-decoration: none;
+    color: #333;
+}
