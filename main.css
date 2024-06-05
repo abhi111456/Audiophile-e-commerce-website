@@ -16,13 +16,13 @@ body{
 
 }
 svg{
-    width: 1.5rem;
-    height: 1.5rem;
+    width: 1.8rem;
+    height: 1.8rem;
 }
 .header{
     width: 100%;
     height: 100vh;
-    background-image: url("./assets/blutooth.jpg");
+    background-image: url("./assets/aaa.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -38,13 +38,13 @@ svg{
     justify-content: space-between;
     align-items: center;
     color: #fff;
-    border-bottom: 1px solid #ffffff2e;
+    border-bottom: 1px solid #474747;
 }
 .logo{
     text-decoration: none;
     color: #fff;
-    font-size: 1.8rem;
-    font-weight: 800;
+    font-size: 2rem;
+    font-weight: bold;
 }
 .nav_list{
     list-style: none;
@@ -53,14 +53,15 @@ svg{
 }
 .nav_link{
     margin: 0rem 0.8rem;
-    font-size: 1.5rem;
+    font-size: 1.1rem;
+    font-weight: bold;
     text-decoration: none;
     color: #fff;
 
 }
 .hero{
     width: 100%;
-    height: calc(100vh - 7rem);
+    height: calc(100vh - 10rem);
 
 }
 .hero_container{
@@ -74,7 +75,9 @@ svg{
     width: 50%;
 }
 .new{
-    color: #ffffff68;
+    color: #303030;
+     word-spacing: 10px;
+    letter-spacing: 2px;
     margin-bottom: 3rem;
     letter-spacing: 1.6px;
     font-size: 1.3rem;
@@ -82,17 +85,21 @@ svg{
 }
 .main_title{
     font-size: 4.8rem;
+    color: #FEFEFE;
     margin-bottom: 2rem;
 
 }
 .hero_text{
-    margin-bottom: 3rem;
+    margin-bottom: 4rem;
+    color: #A2A2A2;
+    font-size: 14px;
 }
 .main_btn{
-    background-color: orange;
+    background-color: #DA7B4A;
     text-decoration: none;
-    color: #fff;
-    font-size: 1.3rem;
+    color: #FEFEFE;
+    font-size: 1.1rem;
+    height: 100px;
     padding: 1rem 1.8rem;
 }
 .products{
@@ -116,6 +123,7 @@ svg{
     width: 18rem;
     height: 18rem;
     position: absolute;
+   
     left: 20%;
     top: -40%;
 }
@@ -126,14 +134,21 @@ svg{
     text-align: center;
 }
 .product_title{
-    font-size: 1.5rem;
+    font-size: 1.3rem;
+    color: black;
+    font-weight: bold;
     letter-spacing: 1.2px;
     margin-bottom: 1rem;
 }
 .see_products{
     font-size: 1.2rem;
     text-decoration: none;
-    color: #333;
+    color: #474747;
+}
+small{
+    color: #CA987C;
+    font-size: 15px;
+    font-weight: bold;
 }
 .speaker{
     padding-top: 10rem;
@@ -144,7 +159,8 @@ svg{
     justify-content: end;
     width: 100%;
     height: 50rem;
-    background-image: url("./assets/head.jpg");
+    border-radius: 10px;
+    background-image: url("./assets/marius-cern-WKc_s4P4mQg-unsplash.jpg");
     background-size: cover;
     border-radius: 5px;
     background-position: center;
@@ -155,30 +171,36 @@ svg{
 
 }
 .speaker_title{
-    font-size: 4.8rem;
+    font-size: 4.1rem;
+    margin-bottom: 10px;
 
 }
 .speaker_titlee{
-    color: black;
-    margin-bottom: 3rem;
-    font-size: 4.8rem;
+    margin-bottom: 22px;
+    font-size: 3rem;
 }
-.speaker_text{
+.speaker_text {
     margin-bottom: 30px;
-}
+    font-size: 12px;
+    
+    width: 50%;
+    line-height: 1.5;
+ }
 .speaker_btn{
     color: #fff;
-    background-color:black;
+    background-color:rgba(31, 28, 28, 0.813);
     text-decoration: none;
-    font-size: 1.3rem;
+    font-weight: bold;
+    font-size: 1rem;
     padding: 1rem 1.8rem;
     margin-top: 2rem;
 }
 .speaker_btnn{
-    color: #fff;
+    color: black;
+    font-weight: bold;
    border: 1px solid black;
     text-decoration: none;
-    font-size: 1.3rem;
+    font-size: 1.2rem;
     padding: 1rem 1.8rem;
     margin-top: 3rem;
 }
@@ -186,15 +208,28 @@ svg{
     margin-top: 5rem;
 }
 .speaker_blutooth{
-    display: flex;
+    /* display: flex;
     align-items: center;
    padding-left: 4rem;
     width: 100%;
     height: 35rem;
     border-radius: 5px;
-    background-image: url("./assets/headphone.jpg");
+    background-image: url("./assets/jan-huber-JiyzPeV2NT4-unsplash.jpg");
+    background-size: cover;
+    background-position: center; */
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 35rem;
+    justify-content: start;
+    border-radius: 10px;
+    background-image: url("./assets/behar-zenuni-U1-pZAXmRmM-unsplash.jpg");
     background-size: cover;
     background-position: center;
+    border-radius: 5px;
+}
+.speaker_content{
+    padding-left: 4rem;
 }
 .earphone{
     padding-top: 5rem;
@@ -206,6 +241,7 @@ svg{
 }
 .earphone_container > img {
     width: 50%;
+    border-radius: 10px;
 }
 .earphone_content{
     width: 50%;
@@ -213,10 +249,12 @@ svg{
     margin-left: 2rem;
     display: flex;
     justify-content: center;
+
     align-items: center;
 }
 .earphone_title{
     margin-bottom: 3rem;
+    color: black;
 }
 .speaker_button{
     color: black;
@@ -227,7 +265,7 @@ svg{
      margin-top: 3rem;
 }
 .heroo{
-    padding-top: 25rem;
+    padding-top: 13rem;
 }
 .heroo_container{
     width: 100%;
@@ -236,31 +274,31 @@ svg{
 
 }
 .heroo_content{
-    margin-bottom: 2rem;
-    margin-left: 2rem;
+   margin-top: 17rem;
+    margin-right: 80px;
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 50%;
+    width: 45%;
 }
 .heroo_text{
     margin: 1.2rem 0rem;
     color:rgba(0, 0, 0, 0.402);
-    padding: 1rem;
+    line-height: 1.2;
     margin-bottom: 2rem;
 }
 .heroo_container > img{
     width: 55%;
-    height: 600px;
+    height: 450px;
     border-radius: 10px;
     object-fit: cover;
     margin-left: 2rem;
 }
 .heroo_title{
-    font-size: 4.8rem;
-    color: #333;
+    font-size: 3.2rem;
+    color: #030303;
     margin-bottom: 2rem;
 }
 span{
-    color: rgb(239, 75, 15);
+    color:#CC8056;
 }
